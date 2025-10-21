@@ -343,7 +343,7 @@ GameObject:
   - component: {fileID: 1830614668}
   - component: {fileID: 1830614669}
   m_Layer: 0
-  m_Name: Exercize5
+  m_Name: Exercize4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -373,10 +373,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1830614666}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffff0061586d84044a0361df1dfd3bfd, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a9d46a180c9f7845845efa773f659c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Numero: 5
+  Numero: 18
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

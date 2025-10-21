@@ -14,7 +14,7 @@ public class EX3 : MonoBehaviour
     {
         restodivisione = Numero % 2;
 
-        if (restodivisione ==0)
+        if (restodivisione == 0)
         {
             Debug.Log("Il numero = " + Numero + " è PARI !!!!");
         }

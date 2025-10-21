@@ -9,13 +9,16 @@ public class EX2 : MonoBehaviour
    [SerializeField] int numero3;
    [SerializeField] int numero4;
    
-    int somma;
-    int moltiplicazione;
-    int media;
+
   
     // Start is called before the first frame update
     void Start()
-    {
+    {   
+        
+        int somma;
+        int moltiplicazione;
+        int media;
+        
         Debug.Log("[numero1] = " + numero1 + " [numero2] = " + numero2 + " [numero3] = " + numero3 + " [numero4] = " + numero4);
 
         somma = (numero1 + numero2 + numero3 + numero4);
