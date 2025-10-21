@@ -22,7 +22,6 @@ public class EX3 : MonoBehaviour
         {
             Debug.Log("Il numero= " + Numero + " è DISPARI !!!");
         }
-
         
     }
 
