@@ -11,6 +11,7 @@ public class EX2 : MonoBehaviour
    
     int somma;
     int moltiplicazione;
+    int media;
   
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,9 @@ public class EX2 : MonoBehaviour
 
         Debug.Log("Moltiplicazione = " + moltiplicazione);
 
+        media = ((numero1 + numero2 + numero3 + numero4) / 4);
+
+        Debug.Log("Media = " + media);
     }
 
     // Update is called once per frame
