@@ -12,16 +12,19 @@ public class EX6 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (Numero1>Numero2)
+        if (Numero1==Numero2)
         {
-            valorealto = Numero1;
+            Debug.Log("I due numeri sono uguali !!!!");
         }
-        if (Numero2>valorealto)
+        else if (Numero1>Numero2)
         {
-            valorealto = Numero2;
+            Debug.Log("Il numero più alto è = " + Numero1);
+        }
+        else
+        {
+            Debug.Log("Il numero più alto è = " + Numero2);
         }
 
-        Debug.Log("Il numero più alto è = " + valorealto);
     }
 
     // Update is called once per frame
